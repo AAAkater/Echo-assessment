@@ -1,0 +1,51 @@
+/* 在这里写 CSS */
+@font-face {
+    font-family: "timefont";
+    src: url("../fonts/Digital-7Mono.TTF");
+}
+body{
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 239, 239);
+}
+.fir{
+    /* outline: auto red; */
+    height: 250px;
+    width: 500px;
+}
+
+ul{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+ul li{
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    margin:  0 10px 0 10px;
+
+    font-size: 100px;
+    font-family: "timefont";
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.chioce{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chioce button{
+    margin:  0 50px 0 50px;
+    font-size: 20px;
+}

@@ -1,0 +1,96 @@
+/* 在这里写 CSS */
+body {
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(239, 239, 239);
+}
+
+#head1 {
+  height: 265px;
+  width: 500px;
+  background-color: rgb(154, 180, 205);
+  border-radius: 5px;
+}
+
+.frame {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.comment {
+  background-color: white;
+  border-radius: 5px;
+
+  margin: 0 25px 0 25px;
+  width: 90%;
+  height: 70px;
+}
+
+#commentinput {
+  height: 25px;
+  width: 80%;
+  margin: 0 40px 5px 40px;
+}
+
+.submitbutt {
+  background-color: rgb(154, 180, 205);
+  border-radius: 5px;
+  color: white;
+  border: none;
+
+  height: 30px;
+  width: 150px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+ul{
+  padding: 0;
+  margin-top:0;
+}
+
+.comments {
+  height: 30px;
+  width: 90%;
+  margin: 5px auto;
+
+  background-color: white;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.delete {
+
+  background-color: rgb(221, 146, 153);
+  height: 100%;
+  width: 7%;
+
+  border: none;
+  border-radius: 5px;
+  display: flex;
+}
+
+.delete svg {
+  width: 70%;
+  height: auto;
+  margin: auto;
+}

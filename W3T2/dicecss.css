@@ -1,0 +1,107 @@
+.first-face{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-face {
+    display: flex;
+}
+.second-face span.pip:nth-of-type(2){
+    position: relative;
+    left: +35px;
+    top: +65px;
+
+}
+
+.third-face{
+    display: flex;
+}
+
+.third-face span.pip:nth-of-type(2){
+    position: relative;
+    top: +32px;
+}
+
+.third-face span.pip:nth-of-type(3){
+    position: relative;
+    top: +65px;
+}
+
+
+.fourth-face{
+    display: flex;
+}
+
+.fourth-face div.column:nth-of-type(odd){
+    position: relative;
+}
+.fourth-face div.column:nth-of-type(odd) span.pip:nth-of-type(2){
+    position: relative;
+    top: +35px;
+}
+.fourth-face div.column:nth-of-type(even){
+    position: relative;
+    left: +35px;
+}
+.fourth-face div.column:nth-of-type(even) span.pip:nth-of-type(2){
+    position: relative;
+    top: +35px;
+}
+
+
+.fifth-face{
+    display: flex;
+}
+
+.fifth-face div.column:nth-of-type(1){
+    position: relative;
+}
+.fifth-face div.column:nth-of-type(1) span.pip:nth-of-type(2){
+    position: relative;
+    top: +35px;
+}
+
+.fifth-face div.column:nth-of-type(2) span.pip:nth-of-type(1){
+    position: relative;
+    top: +32px;
+
+}
+
+.fifth-face div.column:nth-of-type(3){
+    position: relative;
+    /* left: +15px; */
+}
+.fifth-face div.column:nth-of-type(3) span.pip:nth-of-type(2){
+    position: relative;
+    top: +35px;
+}
+
+.sixth-face{
+    display: flex;
+}
+
+
+.sixth-face div.column:nth-of-type(odd){
+    position: relative;
+}
+.sixth-face div.column:nth-of-type(odd) span.pip:nth-of-type(2){
+    position: relative;
+    top: +5px;
+}
+.sixth-face div.column:nth-of-type(odd) span.pip:nth-of-type(3){
+    position: relative;
+    top: +10px;
+}
+.sixth-face div.column:nth-of-type(even){
+    position: relative;
+    left: +35px;
+}
+.sixth-face div.column:nth-of-type(even) span.pip:nth-of-type(2){
+    position: relative;
+    top: +5px;
+}
+.sixth-face div.column:nth-of-type(even) span.pip:nth-of-type(3){
+    position: relative;
+    top: +10px;
+}

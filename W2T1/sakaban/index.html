@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>萨卡班甲鱼</title>
+  <style>
+    /* * {
+      outline-style: solid;
+      outline-color: black;
+    } */
+
+    body {
+      margin: 0;
+      background-image: url(./occean.jpg);
+      background-size: cover;
+    }
+
+    .all {
+
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+
+      width: 800px;
+      height: 250px;
+      display: flex;
+    }
+
+    .fishbody {
+      width: 700px;
+      height: 100%;
+      text-decoration: line-through;
+      outline-style: solid;
+      outline-color: black;
+      background-image: linear-gradient(to bottom, rgb(178, 182, 186) 50%, rgb(255, 255, 255) 0);
+
+      border-top-left-radius: 125px;
+      border-bottom-left-radius: 125px;
+      border-top-right-radius: 300px 125px;
+      border-bottom-right-radius: 300px 125px;
+    }
+
+    .fisheye {
+      /* outline-style: solid;
+      outline-color: black; */
+
+      width: 200px;
+      height: 50px;
+      list-style: none;
+
+      margin-top: 70px;
+      margin-left: 60px;
+      padding: 0;
+
+      display: flex;
+
+    }
+
+    .fisheye li>div {
+      outline-style: solid;
+      outline-color: black;
+      background-color: white;
+
+      width: 50px;
+      height: 50px;
+      border-radius: 100px;
+
+      margin-right: 25px;
+      margin-left: 25px;
+
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .fisheyeball {
+
+      background-color: black;
+      width: 20px;
+      height: 20px;
+      border-radius: 10px;
+    }
+
+    .fishline {
+
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+
+      width: 800px;
+      height: 0px;
+      border-width: 0px;
+      outline-style: solid;
+      outline-color: black;
+
+    }
+
+    .fishmouth {
+      width: 0;
+      height: 0;
+      margin-top: -9px;
+      margin-left: 120px;
+
+      border-top: 20px solid black;
+      border-left: 40px solid transparent;
+      border-right: 40px solid transparent;
+    }
+
+    .fishtail {
+      outline-style: solid;
+      outline-color: black;
+
+      width: 150px;
+      height: 140px;
+      margin: auto;
+      margin-left: -5px;
+
+      background-image: linear-gradient(to bottom, rgb(178, 182, 186) 50%, rgb(255, 255, 255) 0);
+
+      border-top-left-radius: 150px 70px;
+      border-bottom-left-radius: 150px 70px;
+    }
+
+
+    /* 在这里写 CSS 样式 */
+  </style>
+</head>
+
+<body>
+  <div class="all">
+    <div class="fishbody">
+      <ul class="fisheye">
+        <li><div><div class="fisheyeball"></div></div></li>
+        <li><div><div class="fisheyeball"></div></div></li>
+      </ul>
+      <div class="fishmouth"></div>
+    </div>
+    <div class="fishtail"></div>
+  </div>
+  <div class="fishline"></div>
+
+  <!-- 在这里写 HTML 标签 -->
+</body>
+
+</html>
